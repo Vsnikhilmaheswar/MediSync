@@ -1,0 +1,34 @@
+{
+  "specializations": [
+    "Cardiology",
+    "Dermatology",
+    "Endocrinology",
+    "Gastroenterology",
+    "Neurology",
+    "Obstetrics & Gynecology",
+    "Oncology",
+    "Ophthalmology",
+    "Orthopedics",
+    "Pediatrics",
+    "Psychiatry",
+    "Pulmonology",
+    "Radiology",
+    "Urology"
+  ],
+  "qualifications": [
+    "MBBS",
+    "MBBS, MD",
+    "MBBS, MS",
+    "MBBS, DM",
+    "MBBS, MCh"
+  ],
+  "availableDaysOptions": [
+    "Weekdays",
+    "Weekends",
+    "Monday to Friday",
+    "Monday, Wednesday, Friday",
+    "Tuesday, Thursday",
+    "Monday to Saturday",
+    "Custom"
+  ]
+}
