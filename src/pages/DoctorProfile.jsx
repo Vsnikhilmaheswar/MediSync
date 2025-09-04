@@ -1,6 +1,6 @@
 import React from 'react'
 import  { useState } from 'react';
-import { AlignJustify , CalendarPlus, MapPin, User, X } from 'lucide-react';
+import { AlignJustify , CalendarDays, CalendarPlus, Clock, MapPin, User, X } from 'lucide-react';
 import { LogOut } from 'lucide-react';
 import { Mail } from 'lucide-react';
 import { Phone } from 'lucide-react';
@@ -179,9 +179,18 @@ const Appointments = () => {
 
      </div>
   
-  <div className='border border-gray-300 rounded shadow-md m-5 mt-10 p-4'>
+  <div className='flex justify-between border border-gray-300 rounded shadow-md m-5 mt-10 p-4'>
+     <div className='flex gap-2'>
       <img className="rounded-full w-15 h-15 object-cover" src="https://img.freepik.com/free-photo/doctor-white-coat-using-digital-tablet-reading-medical-data-gadget-working-hospital-standin_1258-87435.jpg?ga=GA1.1.824016266.1742628767&semt=ais_hybrid&w=740" />
-     <div></div>
+     <div> <h1 className='text-xl font-semibold '>Joe Doe</h1>
+      <p className='flex gap-2 mt-3'>< CalendarDays size={20}/>Thusday, may 1, 2025</p>
+      <p className='flex gap-2'>< Clock size={20}/>10.30 AM</p></div>
+     </div>
+
+      <div className='flex flex-col justify-center gap-1'>
+        <button className='bg-green-400 text-white p-3 rounded'>Accept</button>
+        <button className='bg-red-500 p-3 rounded text-white'>Reject</button> 
+      </div>
   </div>
    </div>
    
